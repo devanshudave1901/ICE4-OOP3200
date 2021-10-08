@@ -29,9 +29,11 @@ public:
 	// utility functions
 	std::string ToString() const;
 
-
+	// private members
 private:
+	// m_id defined
 	int m_id;
+	// m_position variable of vector 2d class defined.
 	Vector2D m_position;
 
 };
